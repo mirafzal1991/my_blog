@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="{% static 'app/css/base.css' %}">
+<title>My Blog</title>
+
+</head>
+
+<body>
+
+<h2 style="color: red;">Mening futbol haqidagi blogimga xush kelibsiz!</h2>
+
+
+
+
+<p>Ushbu blogda Real Madrid haqida ma'lumotlar berib boriladi. Real Madrid jamoasining hozirgi kundagi natijalari,
+ yozgi transferlari va Real Madrid futbolchilarining Euro 2024'dagi ishtiroki ham yoritib boriladi.
+ Shu bilan birga Real Madridning rasmiy saytidagi habarlardan ham ushbu link orqali
+ habardor bo'lishingiz mumkin: <a href="https://www.realmadrid.com/en-US" target="_blank">Real Madrid</a> </p>
+<b>
+
+<h3>Real Madrid Uzbekistan fan klubiga a'zo bo'lish uchun quyidagi ma'lumotlarni yuborgan holda a'zo bo'lishingiz mumkin:</h3> <br>
+<br>
+<form method="post">
+    <label>Name:
+        <input type="text" name="Name">
+    </label>
+    <br>
+    <label>Email address:
+        <input type="text" name="Email address">
+    </label>
+    <br>
+    Fan klubga a'zo bo'lish qoidalari bilan tanishib chiqdim <input type="checkbox"><br>
+    <input type="submit">
+
+    <br>
+</form>
+<br>
+
+<img src="{% static 'app/imgfile/real madrid.jpg' %}" width="250px">
+<br>
+</body>
+
+</html>
